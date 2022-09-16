@@ -13,13 +13,17 @@ function generatePassword() {
     alert("Please enter a length between 8 and 128 characters.");
     generatePassword();
   } else {
+    let criteriaSelect = [lowercase, uppercase, numeric, specialChar];
+    for (i=0; i<criteriaSelect.length; i++) {
+      criteriaSelect[0] = confirm( `Should it include `)
+    }
+
     lowercase = confirm('Should it include lower-case characters?');
     uppercase = confirm('Should it include upper-case characters?');
     numeric = confirm('Should it include numeric values?');
     specialChar = confirm('Should it include special symbols');
   }
 
-  let criteriaSelect = [lowercase, uppercase, numeric, specialChar];
   let newCriteria = [];
 
   for (i=0; i<criteriaSelect.length; i++){
