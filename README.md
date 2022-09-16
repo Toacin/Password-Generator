@@ -13,9 +13,9 @@ More specifically, my function firsts takes a desired length for the password fr
 One major roadblock I faced were properly indexing the correct array, and I quickly found that better naming conventions for arrays truly makes a difference in efficiency.
 
 ---
-## Deployed Page
+## Deployed Page link
 
-
+https://toacin.github.io/Password-Generator/
 
 ## Installation
 
